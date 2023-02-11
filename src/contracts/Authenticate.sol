@@ -16,11 +16,7 @@ contract Authenticate{
         CA.push( msg.sender);
         CAno++;
         VersityAddress["Ahsanullah University"] = 0xC1BfA82A3F78535dE497f9690a3F705c2f4f7eAf;
-        // UD.push(User({versityName : "Ahsanullah University",roll : "180104065",startDate:1670778000 ,endDate:1671231600 , hash : "QmRXJG4HjoPo8GJu3NqZV7GzcTZU9mdUV8PZxwoWC7c542",status : true}));
-        // CertificateAddress["QmRXJG4HjoPo8GJu3NqZV7GzcTZU9mdUV8PZxwoWC7c542"] = 0xC1BfA82A3F78535dE497f9690a3F705c2f4f7eAf;
-        // UD.push(User({versityName : "Ahsanullah University",roll : "180104061",startDate:1670778000 ,endDate:1671231600 , hash : "QmQtMkqKfaXuXudQjaDiC1WoZ8ZLjd8GfqBDMNXkrmvYwn",status : true}));
-        // CertificateAddress["QmQtMkqKfaXuXudQjaDiC1WoZ8ZLjd8GfqBDMNXkrmvYwn"] = 0xC1BfA82A3F78535dE497f9690a3F705c2f4f7eAf;
-
+        
     }
 
     modifier CAOnly(){
